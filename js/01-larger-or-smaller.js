@@ -1,5 +1,5 @@
 
-function large()  {
+function larger()  {
 let num1 = parseInt(prompt('Please input first number'))
 let num2 = parseInt(prompt('Please input second number'))
 
