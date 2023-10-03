@@ -1,5 +1,5 @@
 function word() {
-    let code = parseInt(prompt('To translate the phrase "Hello World" Please input language code "es" for Spanish, "de" for German, "en" for English or "fr" for French'))
+    let code = (prompt('To translate the phrase "Hello World" Please input language code "es" for Spanish, "de" for German, "en" for English or "fr" for French'))
     let french = "fr"
     let english = "en"
     let german = "de"
@@ -16,6 +16,7 @@ function word() {
     else if (code === german){
     alert('"Hello World" translated in German is: "Hallo welt."')
     }
-    else if (code === "")
+    else {
     alert('"Hello World"')
+}
 }
