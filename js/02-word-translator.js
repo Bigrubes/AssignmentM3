@@ -1,5 +1,5 @@
 function word() {
-    let code = (prompt('To translate the phrase "Hello World" Please input language code "es" for Spanish, "de" for German, "en" for English or "fr" for French'))
+    let code = parseInt(prompt('To translate the phrase "Hello World" Please input language code "es" for Spanish, "de" for German, "en" for English or "fr" for French'))
     let french = "fr"
     let english = "en"
     let german = "de"
