@@ -1,6 +1,6 @@
 
 function grade(){
-let score = prompt("Please choose a number between 1-100")
+let score = parseInt(prompt("Please choose a number between 1-100"))
 if (score > 100){
     alert("You chose a number greater than 100.  Please choose a number between 1-100")
 }
@@ -22,5 +22,4 @@ else if (score<90){
 else {(score<=100)
     console.log("You received a A")
 }
-
 }
