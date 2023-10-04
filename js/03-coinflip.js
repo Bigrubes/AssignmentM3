@@ -8,14 +8,13 @@ let tails = "tails"
 
 let coinFlip = Math.round(Math.random()* 100)
 console.log(coinFlip)
-if (coinFlip < 50){
+if (coinFlip < 50)
     coinFlip = heads
     console.log(coinFlip)
-}
-else if (coinFlip >= 50){
-coinFlip = tails
-console.log(coinFlip)
-}
+    if (coinFlip >= 50){
+        coinFlip = tails
+        console.log(coinFlip)
+    }
 if (coinFlip === tails && choice=== tails){ 
     alert("The flip was tails and you chose tails...you win!")
 }
